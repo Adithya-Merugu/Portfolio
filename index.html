@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Adithya Merugu</title>
+</head>
+
+<body>
+  <script>
+    function validateForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var comments = document.getElementById('comments').value;
+
+        if (name.trim() === '' || email.trim() === '' || comments.trim() === '') {
+            alert('Please fill in all fields.');
+            return false;
+        }
+        return true;
+    }
+</script>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>dithya</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="skills">skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1> This is<span></span></h1>
+        <h1>Alex <span></span></h1>
+        <a href="#projects" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- skills Section -->
+  <section id="skills">
+    <div class="skills container">
+      <div class="skill-top">
+        <h1 class="section-title">I'm Adithya </h1>
+        <p>A passionate web developer fueled by creativity
+           and driven by the endless possibilities of the digital realm.
+            With a solid foundation in front-end and back-end technologies,
+             I specialize in crafting dynamic and user-friendly websites and
+              web applications.
+          </p>
+      </div>
+      <div class="skill-bottom">
+        <div class="skill-item">
+          <div class="icon"><img src="img/web_icon.png" alt="img"></div>
+          <h2>Web Design</h2>
+          <p>As a web designer, I sculpt digital experiences with code and creativity.
+             Dive in to explore my world where pixels and passion </p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="img/server_icon.png" alt="img"></div>
+          <h2>Mern Developer</h2>
+          <p>As a MERN stack developer, I blend MongoDB, Express.js, React, and Node.js to build 
+            dynamic and immersive web applications. </p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="img/skill3.png" alt="img" ></div>
+          <h2>ML enthusiast</h2>
+          <p>I explore the frontiers of AI, data, and algorithms to create intelligent solutions.
+            Making the model efficient and better .</p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="img/skill4.png" alt="img"></div>
+          <h2>Coding</h2>
+          <p>Unlocking the algorithms of tomorrow, today. Welcome to my portfolio as a Data 
+            Structures and Algorithms enthusiast. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End skill Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Snake Game</h2>
+            <p> "Snake Game" is a classic arcade-style game where players 
+              control a snake that moves around a grid, consuming food pellets
+               to grow longer while avoiding obstacles such as walls and the 
+               snake's own tail. As the snake eats more food, it grows longer,
+                making navigation more challenging. </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/pjt1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Plant Disease Detection model</h2>
+            <p>The Plant Disease Detection model is a machine learning-based system
+               designed to identify and classify diseases in plants. 
+               It utilizes computer vision techniques to analyze images 
+               of plant leaves or other parts, detecting patterns associated 
+               with various diseases such as blight, mildew, or rust.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/pjt2.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Payment for the Blind</h2>
+            <p>Enabling accessible payment solutions for the blind is paramount 
+              in fostering financial independence and inclusivity. 
+              By incorporating tactile feedback, voice recognition technology,
+               and Braille support, payment systems become navigable and 
+               user-friendly for individuals with visual impairments.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/pjt_3.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Blog Website</h2>
+            <p>Introducing our innovative blog website project, 
+              a dynamic platform designed to captivate and inform 
+              audiences across diverse interests. Our blog website 
+              serves as a vibrant hub where compelling narratives, 
+              insightful analysis, and engaging content converge. 
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/pjt4.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Auto Logout Extension</h2>
+            <p>AutoLogout extension, a powerful tool designed to enhance your online
+               security and privacy. With AutoLogout, you can effortlessly 
+               log out of all your accounts across various Google services with 
+               just a single click.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/pjt5.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Graphic Designer</h2>
+        <p> A skilled web developer with a passion for crafting engaging 
+          digital experiences. With a keen eye for design and a mastery of
+           programming languages, Alex brings creativity and technical 
+           expertise to every project undertaken. Whether it's building
+            responsive websites, developing interactive web applications,
+             or optimizing user interfaces, Alex's dedication to innovation
+              and commitment to excellence shine through in all aspects of 
+              their work. With a deep understanding of front-end and back-end 
+              technologies, Alex strives to create seamless online solutions
+               that not only meet client needs but also exceed expectations.</p>
+        <a href="https://drive.google.com/file/d/12Dc7oMsc_2niqsxwVzssCNkcMrvKh3mw/view?usp=sharing" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+        <div>
+            <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="img" ></div>
+                <div class="contact-info">
+                    <h1>Phone</h1>
+                    <h2>+91 9059219848</h2>
+                    <!-- <h2>+91 234 123 1234</h2> -->
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="img"></div>
+                <div class="contact-info">
+                    <h1>Email</h1>
+                    <h2>merugu.adithya.29@gmail.com</h2>
+                    <!-- <h2>abcd@gmail.com</h2> -->
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="img"></div>
+                <div class="contact-info">
+                    <h1>Address</h1>
+                    <!-- <h2>Address</h2> -->
+                </div>
+            </div>
+        </div>
+    </div> <!-- closing .contact container -->
+
+    <div id="form-comments">
+        <h2>Contact Form</h2>
+        <form onsubmit="return validateForm()" class="contact">
+          <div><label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+          </div>
+            
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" >
+          </div>
+            
+          <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" ></textarea>
+          </div>
+            
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section> <!-- closing #contact section -->
+
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>A</span>dithya</h1>
+      </div>
+      <h2>MY PORTFOLIO WEBSITE</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="img"></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/_adithyaa_.m/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="img"></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/?lang=en"><img src="https://t4.ftcdn.net/jpg/04/83/36/97/360_F_483369745_d9uQmdRaUGrZjuZC95rh10o64eYunK6c.jpg" alt="img" ></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/adithya-merugu/"><img src="./img/linked.png" alt="img"></a>
+        </div>
+      </div>
+      <p>Copyright &#169; . All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
